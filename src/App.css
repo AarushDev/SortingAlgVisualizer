@@ -1,0 +1,27 @@
+.btn-alg {
+  @apply text-xs border-2 border-primary py-2 px-4 text-black rounded-lg font-semibold hover:bg-primary hover:text-white;
+}
+
+.btn-danger {
+  @apply text-xs border-2 border-black py-2 px-4 text-white rounded-lg font-semibold hover:bg-red-500 hover:text-white;
+}
+
+.sub-header {
+  @apply text-lg font-medium;
+}
+
+.text-description {
+  @apply text-xs text-gray-800 mt-2 mr-auto break-words;
+}
+
+.table-border {
+  @apply border-b border-gray-300;
+}
+
+.table-category {
+  @apply py-2 px-6 border-r border-gray-300 whitespace-nowrap;
+}
+
+.table-answer {
+  @apply py-2 px-4 text-left whitespace-nowrap;
+}
