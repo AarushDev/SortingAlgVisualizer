@@ -1,4 +1,4 @@
-import { characteristics } from "./interface/interface";
+import { characteristics } from "../interface/interface";
 
 export interface DescriptionProps {
   description: string;
