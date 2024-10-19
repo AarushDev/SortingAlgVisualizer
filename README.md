@@ -34,8 +34,11 @@ A web-based tool for visualizing sorting algorithms, aimed at making it easier t
    git clone https://github.com/your-username/sorting-alg-visualizer.git
    ```
 2. ```bash
-   cd sorting-alg-visualizer```
+   cd sorting-alg-visualizer
+   ```
 3. ```bash
-   npm install```
+   npm install
+   ```
 4. ```bash
-   npm run dev```
+   npm run dev
+   ```
