@@ -1,50 +1,38 @@
-# React + TypeScript + Vite
+# Sorting Alg Visualizer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A web-based tool for visualizing sorting algorithms, aimed at making it easier to understand how various sorting techniques operate. This project showcases **Bubble Sort**, **Selection Sort**, **Merge Sort**, **Quick Sort**, **Insertion Sort**, and the chaotic **Bogo Sort**, offering an engaging way to see these algorithms in action.
 
-Currently, two official plugins are available:
+## Key Learning Points
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Asynchronous Programming**: This project deepened my understanding of **async/await** and **promises** through the creation of the visualizations. I implemented features to **abort ongoing algorithms** and adjust the **speed** dynamically.
+- **React Hooks**: I refined my skills with essential React hooks like **useState**, **useEffect**, and **useContext** to manage state, handle side effects, and share data across components effectively.
 
-## Expanding the ESLint configuration
+- **Front-End Design**: Working on the project allowed me to practice basic front-end design, particularly with creating a **retractable sidebar** for easy navigation.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- **Controlled Components**: I utilized controlled components to ensure smooth interaction with the UI elements, allowing real-time changes without glitches.
 
-- Configure the top-level `parserOptions` property like this:
+- **Type Safety**: I took extra care to ensure that all components and logic were correctly typed, enhancing the maintainability and robustness of the project.
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## Features
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+- Interactive visualization of sorting algorithms
+- Speed control and algorithm abortion functionality
+- Responsive and retractable sidebar for easy navigation
+- Fully typed components for better code quality and reliability
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+## Technologies Used
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+- **React** (with Hooks: `useState`, `useEffect`, `useContext`)
+- **TypeScript** for type safety
+- **Vite** as the build tool
+- **Tailwind CSS** for styling, including Tailwind CSS for utility-first design
+
+## Setup
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/sorting-alg-visualizer.git
+   ```
+2. cd sorting-alg-visualizer
+3. npm install
+4. npm run dev
