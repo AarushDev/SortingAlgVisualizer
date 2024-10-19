@@ -12,7 +12,7 @@ export default function Description({
   characteristics,
 }: DescriptionProps) {
   return (
-    <div className="w-full max-w-2xl p-4 flex">
+    <div className="w-full max-w-6xl p-4 flex">
       <div className="flex-2/3 pr-4">
         <h2 className="sub-header">How it Works</h2>
         <p className="text-description">{description}</p>

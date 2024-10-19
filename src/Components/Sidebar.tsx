@@ -30,11 +30,11 @@ export default function Sidebar() {
   return (
     <div
       className={classNames("h-full flex flex-col border-r relative", {
-        "w-56 shadow-lg": expand,
-        "w-14 items-center shadow-sm": !expand,
+        "w-[355px] shadow-lg": expand,
+        "w-24 items-center shadow-sm": !expand,
       })}
     >
-      <div className="font-semibold text-xl flex justify-between items-center p-2">
+      <div className="font-semibold text-3xl flex justify-between items-center p-2">
         {expand && "Algorithms"}
         <button
           className="cursor-pointer bg-primary rounded-md text-white hover:bg-hoverPrimary"
@@ -43,7 +43,7 @@ export default function Sidebar() {
           {expand ? chevronRight : chevronLeft}
         </button>
       </div>
-      <ul className="mt-3 w-full">
+      <ul className="w-full mt-4">
         {tabs.map(({ id, name, icon }) => (
           <li
             key={id}
@@ -51,7 +51,7 @@ export default function Sidebar() {
             onMouseEnter={() => handleMouseEnter(id)}
             onMouseLeave={handleMouseLeave}
             className={classNames(
-              "text-sm text-gray-800 cursor-pointer hover:bg-gray-200 p-2 flex items-center gap-2 relative mb-2",
+              "text-lg text-gray-800 cursor-pointer hover:bg-gray-200 p-2 flex items-center gap-2 relative mb-2",
               {
                 "bg-gray-200": name === activeTab.name,
                 "justify-center": !expand,
@@ -61,14 +61,14 @@ export default function Sidebar() {
             {icon}
             {expand && name}
             {hoveredTab === id && !expand && (
-              <span className="absolute top-7 left-10 z-10 text-xs text-white shadow-lg p-2 bg-primary rounded-md text-nowrap">
+              <span className="absolute top-7 left-20 z-10 text-white shadow-lg p-2 bg-primary rounded-md text-nowrap">
                 {name}
               </span>
             )}
           </li>
         ))}
       </ul>
-      <p className="text-xs mt-auto p-2 underline">
+      <p className="text-lg mt-auto p-2 underline">
         <a href="https://github.com/AarushDev?tab=repositories" target="_blank">
           {expand ? "By: Aarush Khurana" : "By: AK"}
         </a>

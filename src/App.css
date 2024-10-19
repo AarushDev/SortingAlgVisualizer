@@ -1,17 +1,17 @@
 .btn-alg {
-  @apply text-xs border-2 border-primary py-2 px-4 text-black rounded-lg font-semibold hover:bg-primary hover:text-white;
+  @apply text-lg border-2 border-primary py-2 px-8 text-black rounded-lg font-semibold hover:bg-primary hover:text-white;
 }
 
 .btn-danger {
-  @apply text-xs border-2 border-black py-2 px-4 text-white rounded-lg font-semibold hover:bg-red-500 hover:text-white;
+  @apply text-lg border-2 border-black py-2 px-8 text-white rounded-lg font-semibold hover:bg-red-500 hover:text-white;
 }
 
 .sub-header {
-  @apply text-lg font-medium;
+  @apply text-2xl font-medium;
 }
 
 .text-description {
-  @apply text-xs text-gray-800 mt-2 mr-auto break-words;
+  @apply text-gray-800 mt-2 mr-auto break-words;
 }
 
 .table-border {

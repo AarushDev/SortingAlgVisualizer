@@ -1,8 +1,8 @@
 export const bubbleSort = (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width="18px"
-    height="18px"
+    width="32px"
+    height="32px"
     viewBox="0 0 24 24"
   >
     <g fill="none" fillRule="evenodd">
@@ -18,8 +18,8 @@ export const bubbleSort = (
 export const chevronLeft = (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width="24px"
-    height="24px"
+    width="38px"
+    height="38px"
     viewBox="0 0 24 24"
   >
     <path fill="currentColor" d="M12.6 12L8 7.4L9.4 6l6 6l-6 6L8 16.6z"></path>
@@ -29,8 +29,8 @@ export const chevronLeft = (
 export const chevronRight = (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width="24px"
-    height="24px"
+    width="38px"
+    height="38px"
     viewBox="0 0 24 24"
   >
     <path
@@ -43,8 +43,8 @@ export const chevronRight = (
 export const insertionSort = (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width="18px"
-    height="18px"
+    width="32px"
+    height="32px"
     viewBox="0 0 16 16"
   >
     <path
@@ -59,8 +59,8 @@ export const insertionSort = (
 export const mergeSort = (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width="18px"
-    height="18px"
+    width="32px"
+    height="32px"
     viewBox="0 0 24 24"
   >
     <path
@@ -73,8 +73,8 @@ export const mergeSort = (
 export const quickSort = (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width="18px"
-    height="18px"
+    width="32px"
+    height="32px"
     viewBox="0 0 24 24"
   >
     <path
@@ -87,8 +87,8 @@ export const quickSort = (
 export const selectionSort = (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width="18px"
-    height="18px"
+    width="32px"
+    height="32px"
     viewBox="0 0 1024 1024"
   >
     <path
@@ -101,8 +101,8 @@ export const selectionSort = (
 export const bogoSort = (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width="18px"
-    height="18px"
+    width="32px"
+    height="32px"
     viewBox="0 0 24 24"
   >
     <path

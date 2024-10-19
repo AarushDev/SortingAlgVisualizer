@@ -50,24 +50,26 @@ function SortingPage() {
   }
 
   return (
-    <div className="h-screen flex-1 mx-auto flex flex-col overflow-auto">
+    <div className="h-full flex-1 mx-auto flex flex-col overflow-auto">
       <nav className="p-2 text-center">
-        <h1 className=" font-semibold text-xl">Sorting Algorithm Visualizer</h1>
-        <div className="border border-primary w-32 m-auto mt-3"></div>
+        <h1 className=" font-semibold text-3xl">
+          Sorting Algorithm Visualizer
+        </h1>
+        <div className="border border-primary w-32 mx-auto mt-3"></div>
       </nav>
-      <main className="h-full flex flex-col items-center ">
+      <main className="flex flex-col items-center">
         <div className="gap-2 mt-4 mb-6">
           <h2 className="sub-header">{activeTab.name}</h2>
         </div>
-        <div className="flex gap-2 w-full justify-center">
-          <div className="flex items-end border-2 border-primary min-h-56 px-10 ml-12">
+        <div className="flex gap-2 justify-center">
+          <div className="flex items-end border-2 border-primary min-h-96 px-10 ml-12">
             {bars.map(({ value, state }, index) => {
               return (
                 <div
                   key={index}
-                  style={{ height: `${value}px` }}
+                  style={{ height: `${value * 1.65}px` }}
                   className={classNames(
-                    "w-10  mr-1 text-xs flex items-start justify-center text-white rounded-t-md",
+                    "w-16  mr-1 text-md flex items-start justify-center text-white rounded-t-md",
                     {
                       "bg-green-500": state === "sorted",
                       "bg-yellow-500": state === "placing",
